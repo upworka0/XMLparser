@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<PC-AssayDescription
+    xmlns="http://www.ncbi.nlm.nih.gov"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+    xs:schemaLocation="http://www.ncbi.nlm.nih.gov ftp://ftp.ncbi.nlm.nih.gov/pubchem/specifications/pubchem.xsd"
+>
+  <PC-AssayDescription_aid>
+    <PC-ID>
+      <PC-ID_id>1</PC-ID_id>
+      <PC-ID_version>1</PC-ID_version>
+    </PC-ID>
+  </PC-AssayDescription_aid>
+  <PC-AssayDescription_aid-source>
+    <PC-Source>
+      <PC-Source_db>
+        <PC-DBTracking>
+          <PC-DBTracking_name>DTP/NCI</PC-DBTracking_name>
+          <PC-DBTracking_source-id>
+            <Object-id>
+              <Object-id_str>NCI human tumor cell line growth inhibition assay. Data for the NCI-H23 Non-Small Cell Lung cell line
+
+              </Object-id_str>
+            </Object-id>
+          </PC-DBTracking_source-id>
+          <PC-DBTracking_date>
+            <Date>
+              <Date_std>
+                <Date-std>
+                  <Date-std_year>2004</Date-std_year>
+                  <Date-std_month>8</Date-std_month>
+                  <Date-std_day>15</Date-std_day>
+                </Date-std>
+              </Date_std>
+            </Date>
+          </PC-DBTracking_date>
+        </PC-DBTracking>
+      </PC-Source_db>
+    </PC-Source>
+  </PC-AssayDescription_aid-source>
+  <PC-AssayDescription_name>NCI human tumor cell line growth inhibition assay. Data for the NCI-H23 Non-Small Cell Lung cell line</PC-AssayDescription_name>
+  <PC-AssayDescription_description>
+    <PC-AssayDescription_description_E>Growth inhibition of the NCI-H23 human Non-Small Cell Lung tumor cell line is measured as a screen for anti-cancer activity. Cells are grown in 96 well plates and exposed to the test compound for 48 hours. Compounds are tested at 5 different concentrations and three endpoints are estimated from this dose response curve: GI50, concentration required for 50% inhibition of growth, TGI, the concentration requires for complete inhibition of growth, and LC50, the concentration required for 50% reduction in cell number. These estimates are done by simple linear interpolation between the concentrations that surround the approriate level. If a compound doesn&apos;t cause inhibition to the appropriate level, the endpoint is set to the highest concentration tested. </PC-AssayDescription_description_E>
+  </PC-AssayDescription_description>
+  <PC-AssayDescription_comment>
+    <PC-AssayDescription_comment_E>These data are a subset of the data from the NCI human tumor cell line screen. Compounds are identified by the NCI NSC number. In the NCI numbering system, NCI-H23 is panel number 1, cell number 1</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>Basically compounds  with LogGI50 (unit M) less than -6 were considered as active. Activity score was based on increasing values of -LogGI50.</PC-AssayDescription_comment_E>
+  </PC-AssayDescription_comment>
+  <PC-AssayDescription_xref>
+    <PC-AnnotatedXRef>
+      <PC-AnnotatedXRef_xref>
+        <PC-XRefData>
+          <PC-XRefData_dburl>http://dtp.nci.nih.gov/</PC-XRefData_dburl>
+        </PC-XRefData>
+      </PC-AnnotatedXRef_xref>
+    </PC-AnnotatedXRef>
+    <PC-AnnotatedXRef>
+      <PC-AnnotatedXRef_xref>
+        <PC-XRefData>
+          <PC-XRefData_asurl>http://dtp.nci.nih.gov/branches/btb/ivclsp.html</PC-XRefData_asurl>
+        </PC-XRefData>
+      </PC-AnnotatedXRef_xref>
+    </PC-AnnotatedXRef>
+    <PC-AnnotatedXRef>
+      <PC-AnnotatedXRef_xref>
+        <PC-XRefData>
+          <PC-XRefData_pmid>3335022</PC-XRefData_pmid>
+        </PC-XRefData>
+      </PC-AnnotatedXRef_xref>
+    </PC-AnnotatedXRef>
+    <PC-AnnotatedXRef>
+      <PC-AnnotatedXRef_xref>
+        <PC-XRefData>
+          <PC-XRefData_pmid>1462164</PC-XRefData_pmid>
+        </PC-XRefData>
+      </PC-AnnotatedXRef_xref>
+    </PC-AnnotatedXRef>
+    <PC-AnnotatedXRef>
+      <PC-AnnotatedXRef_xref>
+        <PC-XRefData>
+          <PC-XRefData_pmid>3051021</PC-XRefData_pmid>
+        </PC-XRefData>
+      </PC-AnnotatedXRef_xref>
+    </PC-AnnotatedXRef>
+  </PC-AssayDescription_xref>
+  <PC-AssayDescription_results></PC-AssayDescription_results>
+  <PC-AssayDescription_revision>1</PC-AssayDescription_revision>
+  <PC-AssayDescription_activity-outcome-method value="confirmatory">2</PC-AssayDescription_activity-outcome-method>
+</PC-AssayDescription>
+
